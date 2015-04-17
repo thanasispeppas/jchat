@@ -1,0 +1,115 @@
+/* global */
+
+body {
+  margin:0px;
+  padding:0px;
+  text-align:center;
+}
+
+hr {
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width:500px;
+  margin:0px auto;
+  text-align:center;
+  border:10px black;
+}
+
+.header a {
+  margin: 10px;
+}
+
+.form-control {
+  text-align:left;
+}
+
+.form-group {
+  text-align:right;
+}
+
+.flashMessage {
+  color: darkred;
+  font-size: 100%;
+}
+
+button {
+  background: #3333FF;
+  color: white;
+  font-size: 100%;
+  border-radius: 20px;
+  padding: 10px; 
+  margin: 10px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #3399FF;
+}
+
+button:active {
+}
+
+button:disabled {
+  background-color: #3399FF;
+}
+
+
+/* users */
+
+#usersList {
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#usersList li {
+  display: inline;
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #32CD32;
+}
+
+
+/* messages */
+
+#messagesList {
+  background-color: transparent;
+  font-size: 100%;
+  overflow-y: scroll;
+  max-height: 400px;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+.message {
+  color: black;
+  font-size: 100%;
+  margin: 5px;
+  word-wrap: break-word;
+}
+
+.username {
+  font: bold;
+  color: green;
+  font-size: 100%;
+  margin: 5px;
+}
+
+.messagesInput {
+  background-color: transparent;
+  font-size: 100%;
+  border-bottom: 2px solid gray;
+  margin: 0;
+  padding: 10px;
+}

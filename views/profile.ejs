@@ -1,0 +1,12 @@
+<%- include _header.ejs %>
+  
+    <!-- user profile -->
+    <div class="profileDiv">
+      <h3>Profile</h3>
+      <strong>id</strong>: <%= user._id %><br>
+      <strong>username</strong>: <%= user.username %><br>
+      <strong>email</strong>: <%= user.email %><br>
+      <strong>password</strong>: <%= user.password %>
+    </div>
+
+<%- include _footer.ejs %>
