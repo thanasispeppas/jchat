@@ -38,7 +38,7 @@ ul {
   font-size: 100%;
 }
 
-button {
+.form-button {
   background: #3333FF;
   color: white;
   font-size: 100%;
@@ -48,14 +48,14 @@ button {
   width: 100px;
 }
 
-button:hover {
+.form-button:hover {
   background-color: #3399FF;
 }
 
-button:active {
+.form-button:active {
 }
 
-button:disabled {
+.form-button:disabled {
   background-color: #3399FF;
 }
 
